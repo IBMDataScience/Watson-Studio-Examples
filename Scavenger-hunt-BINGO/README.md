@@ -12,8 +12,8 @@ Sample for THINK 2019 user experience session
     <th>San Francisco scavenger hunt BINGO</th>
   </tr>
   <tr>
-    <td><a href="https://youtu.be/1u2qe3pJCyw" target="_other"><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/instructions/thumbnail-indoor.jpg" width="300px"/></a></td>
-    <td><a href="https://youtu.be/6yKptg4t37s" target="_other"><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/instructions/thumbnail-san-fran.jpg" width="300px"/></a></td>
+        <td><a href="https://youtu.be/1u2qe3pJCyw" target="_other"><img src="instructions/thumbnail-indoor.jpg" width="300px"/></a></td>
+    <td><a href="https://youtu.be/6yKptg4t37s" target="_other"><img src="instructions/thumbnail-san-fran.jpg" width="300px"/></a></td>
   </tr>
 </table>
 
@@ -57,8 +57,8 @@ After you get the sample working, collect images of your favorite objects or tou
 
 ### Step 1: Collect training and test data
 
-1. <p>Download these 12 .zip files to your local computer: <a href="https://github.com/IBMDataScience/Watson-Studio-Examples/tree/master/Scavenger-hunt-BINGO/indoor-scavenger-hunt-model/training_data">Training data</a></p>
-2. <p>Download these 11 images to your local computer: <a href="https://github.com/IBMDataScience/Watson-Studio-Examples/tree/master/Scavenger-hunt-BINGO/indoor-scavenger-hunt-model/test_images">Test images</a></p>
+1. <p>Download these 12 .zip files to your local computer: <a href="indoor-scavenger-hunt-model/training_data">Training data</a></p>
+2. <p>Download these 11 images to your local computer: <a href="indoor-scavenger-hunt-model/test_images">Test images</a></p>
 
 
 #### About the sample training data
@@ -67,19 +67,19 @@ The sample training data includes 25 images of 11 indoor objects:
 
 <table>
 <tr>
-  <td><b>bowl</b><br/><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/indoor-scavenger-hunt-web-app/code/static/images/exemplars/bowl.png" width="100"/></td>
-  <td><b>brush</b><br/><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/indoor-scavenger-hunt-web-app/code/static/images/exemplars/brush.png" width="100"/></td>
-  <td><b>bucket</b><br/><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/indoor-scavenger-hunt-web-app/code/static/images/exemplars/bucket.png" width="100"/></td>
-  <td><b>cup</b><br/><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/indoor-scavenger-hunt-web-app/code/static/images/exemplars/cup.png" width="100"/></td>
-  <td><b>glove</b><br/><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/indoor-scavenger-hunt-web-app/code/static/images/exemplars/glove.png" width="100"/></td>
-  <td><b>hockey tape</b><br/><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/indoor-scavenger-hunt-web-app/code/static/images/exemplars/hockeytape.png" width="100"/></td>
+  <td><b>bowl</b><br/><img src="indoor-scavenger-hunt-web-app/code/static/images/exemplars/bowl.png" width="100"/></td>
+  <td><b>brush</b><br/><img src="indoor-scavenger-hunt-web-app/code/static/images/exemplars/brush.png" width="100"/></td>
+  <td><b>bucket</b><br/><img src="indoor-scavenger-hunt-web-app/code/static/images/exemplars/bucket.png" width="100"/></td>
+  <td><b>cup</b><br/><img src="indoor-scavenger-hunt-web-app/code/static/images/exemplars/cup.png" width="100"/></td>
+  <td><b>glove</b><br/><img src="indoor-scavenger-hunt-web-app/code/static/images/exemplars/glove.png" width="100"/></td>
+  <td><b>hockey tape</b><br/><img src="indoor-scavenger-hunt-web-app/code/static/images/exemplars/hockeytape.png" width="100"/></td>
 </tr>
 <tr>
-  <td><b>measuring tape</b><br/><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/indoor-scavenger-hunt-web-app/code/static/images/exemplars/measuringtape.png" width="100"/></td>
-  <td><b>pig</b><br/><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/indoor-scavenger-hunt-web-app/code/static/images/exemplars/pig.png" width="100"/></td>
-  <td><b>puzzle</b><br/><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/indoor-scavenger-hunt-web-app/code/static/images/exemplars/puzzle.png" width="100"/></td>
-  <td><b>shoe</b><br/><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/indoor-scavenger-hunt-web-app/code/static/images/exemplars/shoe.png" width="100"/></td>
-  <td><b>stapler</b><br/><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/indoor-scavenger-hunt-web-app/code/static/images/exemplars/stapler.png" width="100"/></td>
+  <td><b>measuring tape</b><br/><img src="indoor-scavenger-hunt-web-app/code/static/images/exemplars/measuringtape.png" width="100"/></td>
+  <td><b>pig</b><br/><img src="indoor-scavenger-hunt-web-app/code/static/images/exemplars/pig.png" width="100"/></td>
+  <td><b>puzzle</b><br/><img src="indoor-scavenger-hunt-web-app/code/static/images/exemplars/puzzle.png" width="100"/></td>
+  <td><b>shoe</b><br/><img src="indoor-scavenger-hunt-web-app/code/static/images/exemplars/shoe.png" width="100"/></td>
+  <td><b>stapler</b><br/><img src="indoor-scavenger-hunt-web-app/code/static/images/exemplars/stapler.png" width="100"/></td>
 </tr>
 </table>
 
@@ -87,16 +87,16 @@ The images include 8 different backgrounds:
 
 <table>
 <tr>
-  <td><b>white</b><br/><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/instructions/background_03.png" width="100"/></td>
-  <td><b>yellow</b><br/><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/instructions/background_07.png" width="100"/></td>
-  <td><b>beige</b><br/><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/instructions/background_12.png" width="100"/></td>
-  <td><b>blue</b><br/><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/instructions/background_18.png" width="100"/></td>
+  <td><b>white</b><br/><img src="instructions/background_03.png" width="100"/></td>
+  <td><b>yellow</b><br/><img src="instructions/background_07.png" width="100"/></td>
+  <td><b>beige</b><br/><img src="instructions/background_12.png" width="100"/></td>
+  <td><b>blue</b><br/><img src="instructions/background_18.png" width="100"/></td>
 </tr>
 <tr>
-  <td><b>green</b><br/><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/instructions/background_24.png" width="100"/></td>
-  <td><b>black</b><br/><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/instructions/background_34.png" width="100"/></td>
-  <td><b>dark wood</b><br/><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/instructions/background_47.270.png" width="100"/></td>
-  <td><b>light wood</b><br/><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/instructions/background_68.0.png" width="100"/></td>
+  <td><b>green</b><br/><img src="instructions/background_24.png" width="100"/></td>
+  <td><b>black</b><br/><img src="instructions/background_34.png" width="100"/></td>
+  <td><b>dark wood</b><br/><img src="instructions/background_47.270.png" width="100"/></td>
+  <td><b>light wood</b><br/><img src="instructions/background_68.0.png" width="100"/></td>
 </tr>
 </table>
 
@@ -108,19 +108,19 @@ The sample test images are 11 images that were not part of the training data:
 
 <table>
 <tr>
-  <td><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/indoor-scavenger-hunt-model/test_images/DSCF3923.jpg" width="100"/></td>
-  <td><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/indoor-scavenger-hunt-model/test_images/DSCF3925.jpg" width="100"/></td>
-  <td><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/indoor-scavenger-hunt-model/test_images/DSCF3928.jpg" width="100"/></td>
-  <td><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/indoor-scavenger-hunt-model/test_images/DSCF3930.jpg" width="100"/></td>
-  <td><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/indoor-scavenger-hunt-model/test_images/DSCF3932.jpg" width="100"/></td>
-  <td><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/indoor-scavenger-hunt-model/test_images/DSCF3935.jpg" width="100"/></td>
+  <td><img src="indoor-scavenger-hunt-model/test_images/DSCF3923.jpg" width="100"/></td>
+  <td><img src="indoor-scavenger-hunt-model/test_images/DSCF3925.jpg" width="100"/></td>
+  <td><img src="indoor-scavenger-hunt-model/test_images/DSCF3928.jpg" width="100"/></td>
+  <td><img src="indoor-scavenger-hunt-model/test_images/DSCF3930.jpg" width="100"/></td>
+  <td><img src="indoor-scavenger-hunt-model/test_images/DSCF3932.jpg" width="100"/></td>
+  <td><img src="indoor-scavenger-hunt-model/test_images/DSCF3935.jpg" width="100"/></td>
 </tr>
 <tr>
-  <td><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/indoor-scavenger-hunt-model/test_images/DSCF3936.jpg" width="100"/></td>
-  <td><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/indoor-scavenger-hunt-model/test_images/DSCF3939.jpg" width="100"/></td>
-  <td><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/indoor-scavenger-hunt-model/test_images/DSCF3940.jpg" width="100"/></td>
-  <td><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/indoor-scavenger-hunt-model/test_images/DSCF3942.jpg" width="100"/></td>
-  <td><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/indoor-scavenger-hunt-model/test_images/DSCF3945.jpg" width="100"/></td>
+  <td><img src="indoor-scavenger-hunt-model/test_images/DSCF3936.jpg" width="100"/></td>
+  <td><img src="indoor-scavenger-hunt-model/test_images/DSCF3939.jpg" width="100"/></td>
+  <td><img src="indoor-scavenger-hunt-model/test_images/DSCF3940.jpg" width="100"/></td>
+  <td><img src="indoor-scavenger-hunt-model/test_images/DSCF3942.jpg" width="100"/></td>
+  <td><img src="indoor-scavenger-hunt-model/test_images/DSCF3945.jpg" width="100"/></td>
 </tr>
 </table>
 
@@ -151,7 +151,7 @@ See also: <a href="https://dataplatform.cloud.ibm.com/docs/content/analyze-data/
 
 **Demo video**
 
-<a href="https://youtu.be/mbzjzmSqU50"><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/instructions/thumbnail-build-model.png" width="300px"/></a>
+<a href="https://youtu.be/mbzjzmSqU50"><img src="instructions/thumbnail-build-model.png" width="300px"/></a>
 
 <p>&nbsp;</p>
 
@@ -160,12 +160,12 @@ See also: <a href="https://dataplatform.cloud.ibm.com/docs/content/analyze-data/
 
 1. <p>When training is complete, a link to the model details page is given in a message.  Click the link to go to the model details page.  (Alternatively, click on the model name in the <b>Assets</b> page of your project to get to the model details page.)</p>
 2. <p>Click the <b>Test</b> tab.</p>
-3. <p>Download these test images to your local computer: <a href="https://github.com/IBMDataScience/Watson-Studio-Examples/tree/master/Scavenger-hunt-BINGO/indoor-scavenger-hunt-model/test_images">Test images</a></p>
+3. <p>Download these test images to your local computer: <a href="indoor-scavenger-hunt-model/test_images">Test images</a></p>
 3. <p>Drag test images onto the test area for classification.</p>
 
 **Demo video**
 
-<a href="https://youtu.be/otzT0jfvj70"><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/instructions/thumbnail-test-model.png" width="300px"/></a>
+<a href="https://youtu.be/otzT0jfvj70"><img src="instructions/thumbnail-test-model.png" width="300px"/></a>
 
 
 <p>&nbsp;</p>
@@ -178,7 +178,7 @@ See also: <a href="https://dataplatform.cloud.ibm.com/docs/content/analyze-data/
     <ol>
     <li>Click <b>Add to project</b> and then click <b>NOTEBOOK</b></li>
     <li>Click the tab labeled <b>From URL</b></li>
-    <li>In the box labeled <b>Notebook URL</b>, paste in this URL: <a href="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/notebook/indoor-scavenger-hunt-notebook.ipynb">Sample notebook</a></li>
+    <li>In the box labeled <b>Notebook URL</b>, paste the URL of this sample notebook: <a href="notebook/indoor-scavenger-hunt-notebook.ipynb">Sample notebook</a></li>
     <li>Give the notebook a name</li>
     <li>Click <b>Create Notebook</b></li>
     </ol></li>
@@ -200,7 +200,7 @@ See also:
 
 **Demo video**
 
-<a href="https://youtu.be/p5xDP5R-GtY"><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/instructions/thumbnail-notebook.png" width="300px"/></a>
+<a href="https://youtu.be/p5xDP5R-GtY"><img src="instructions/thumbnail-notebook.png" width="300px"/></a>
 
 
 <p>&nbsp;</p>
@@ -208,7 +208,7 @@ See also:
 
 ### Step 5: Copy prototype code into a web app
 
-1. <p>Download and unzip the sample app from here: <a href="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/indoor-scavenger-hunt-web-app/indoor-scavenger-hunt-web-app.zip">Sample Python Flask scavenger hunt app</a></p>
+1. <p>Download and unzip the sample app from here: <a href="indoor-scavenger-hunt-web-app/indoor-scavenger-hunt-web-app.zip">Sample Python Flask scavenger hunt app</a></p>
 2. <p>In the file <code>server.py</code>, paste your model ID and credentials (just like in the sample notebook)</p>
 3. <p>Notice that the functions <code>getKey</code>, <code>getTopClass</code>, <code>classifyImage</code>, and <code>resizeImage</code> that were prototyped in the notebook are used in the file <code>server.py</code></p>
 
@@ -250,7 +250,7 @@ See also:
 
 **Demo video**
 
-<a href="https://youtu.be/AvX8nwS5eeg"><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/instructions/thumbnail-copy-code.png" width="300px"/></a>
+<a href="https://youtu.be/AvX8nwS5eeg"><img src="instructions/thumbnail-copy-code.png" width="300px"/></a>
 
 <p>&nbsp;</p>
 
@@ -264,7 +264,7 @@ See also:
 
 **Demo video**
 
-<a href="https://youtu.be/-n_5mH9cOPM"><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/instructions/thumbnail-local.png" width="300px"/></a>
+<a href="https://youtu.be/-n_5mH9cOPM"><img src="instructions/thumbnail-local.png" width="300px"/></a>
 
 <p>&nbsp;</p>
 
@@ -301,7 +301,7 @@ See also:
 
 **Demo video**
 
-<a href="https://youtu.be/jzSoO6eNmOE"><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/instructions/thumbnail-cloud.png" width="300px"/></a>
+<a href="https://youtu.be/jzSoO6eNmOE"><img src="instructions/thumbnail-cloud.png" width="300px"/></a>
 
 <p>&nbsp;</p>
 

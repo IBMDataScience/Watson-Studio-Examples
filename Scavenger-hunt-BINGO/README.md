@@ -1,16 +1,20 @@
 # Scavenger hunt BINGO
 
-This sample demonstrates how to implement a scavenger hunt BINGO web app that uses a visual recognition model to classify images:
+This sample demonstrates how to build a scavenger hunt BINGO web app that uses a visual recognition model to classify images:
 
 <img src="instructions/idea.png"/>
 
 This sample includes:
 - Training data and test images of indoor objects
 - A Python notebook for prototyping app code
-- Python Flask web app
-- Instructions and videos showing how to train and test the visual recognition model, how to run the web app on your local computer, and how to push the web app to IBM Cloud
+- Python Flask web app code
+- Instructions and videos showing how to train and test the visual recognition model in [IBM Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio), how to run the web app on your local computer, and how to push the web app to IBM Cloud
 
-
+You can complete this sample using the free (Lite) version of these services:
+- [IBM Cloud](https://cloud.ibm.com/registration)
+- [IBM Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio)
+- [IBM Watson Visual Recognition](https://cloud.ibm.com/catalog/services/visual-recognition)
+- [Python web app on IBM Cloud](https://cloud.ibm.com/catalog/starters/python) (free for 30 days)
 
 <p>&nbsp;</p>
 

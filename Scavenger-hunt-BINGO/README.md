@@ -12,8 +12,8 @@ Sample for THINK 2019 user experience session
     <th>San Francisco scavenger hunt BINGO</th>
   </tr>
   <tr>
-        <td><a href="https://youtu.be/1u2qe3pJCyw" target="_other"><img src="instructions/thumbnail-indoor.jpg" width="300px"/></a></td>
-    <td><a href="https://youtu.be/6yKptg4t37s" target="_other"><img src="instructions/thumbnail-san-fran.jpg" width="300px"/></a></td>
+        <td><a href="https://youtu.be/1u2qe3pJCyw"><img src="instructions/thumbnail-indoor.jpg" width="300px"/></a></td>
+    <td><a href="https://youtu.be/6yKptg4t37s"><img src="instructions/thumbnail-san-fran.jpg" width="300px"/></a></td>
   </tr>
 </table>
 
@@ -30,15 +30,15 @@ After you get the sample working, collect images of your favorite objects or tou
 ### Prerequisites
 
 <ol>
-<li><p>Sign up for IBM Cloud: <a href="https://www.ibm.com/cloud/" target="other">IBM Cloud sign up</a></p></li>
-<li><p>Create an instance of the IBM Watson Studio service on IBM Cloud: <a href="https://cloud.ibm.com/catalog/services/watson-studio" target="other">IBM Watson Studio</a></p></li>
+<li><p>Sign up for IBM Cloud: <a href="https://www.ibm.com/cloud/">IBM Cloud sign up</a></p></li>
+<li><p>Create an instance of the IBM Watson Studio service on IBM Cloud: <a href="https://cloud.ibm.com/catalog/services/watson-studio">IBM Watson Studio</a></p></li>
 <li><p>Create a project in Watson Studio:</p>
     <ol>
     <li>Go to https://dataplatform.cloud.ibm.com and log in (if you are not already logged in)</li>
     <li>Click <b>New project</b>, select <b>Visual Recognition</b>, and then follow the prompts to associate needed services with the project: IBM Cloud Object Storage and IBM Watson Visual Recognition.</li>
     </ol>
-    <p>See also: <a href="https://dataplatform.cloud.ibm.com/docs/content/getting-started/projects.html" target="other">Creating projects</a></li>
-<li><p>To be able to run the sample web app on your local computer, <a href="https://www.python.org/downloads" target="other">install Python</a></p>
+    <p>See also: <a href="https://dataplatform.cloud.ibm.com/docs/content/getting-started/projects.html">Creating projects</a></li>
+<li><p>To be able to run the sample web app on your local computer, <a href="https://www.python.org/downloads">install Python</a></p>
     <ul>
     <li>Make sure to have the installer add Python to your environments variables</li>
     <li>Mac users, also install <code>pip</code> by issuing this command: <pre><code>sudo easy_install pip</code></pre></li>
@@ -47,9 +47,9 @@ After you get the sample working, collect images of your favorite objects or tou
         <li>Find the user base binary directory by running this command: <pre><code>python -m site --user-base</code></pre></li>
         <li>Add your user base binary directory, with <code>/bin</code> appended, to the file <code>/etc/paths</code></li>
         </ol>
-        <p>See: <a href="https://www.architectryan.com/2012/10/02/add-to-the-path-on-mac-os-x-mountain-lion" target="other">Complete instructions</a></p></li>
+        <p>See: <a href="https://www.architectryan.com/2012/10/02/add-to-the-path-on-mac-os-x-mountain-lion">Complete instructions</a></p></li>
     </ul></li>
-<li>To be able to push the sample web app to IBM Cloud, <a href="https://console.bluemix.net/docs/cli/reference/ibmcloud/download_cli.html#install_use" target="other">install the IBM Cloud CLI</a></li>
+<li>To be able to push the sample web app to IBM Cloud, <a href="https://console.bluemix.net/docs/cli/reference/ibmcloud/download_cli.html#install_use">install the IBM Cloud CLI</a></li>
 </ol>
 
 <p>&nbsp;</p>
@@ -147,7 +147,7 @@ See: [IBM Watson Visual Recognition guidelines for good training](https://consol
 6. <p>From the data panel, drag the file <code>_negative.zip</code> onto the <b>Negative</b> class card.</p>
 7. <p>Click <b>Train model</b>.</p>
 
-See also: <a href="https://dataplatform.cloud.ibm.com/docs/content/analyze-data/visual-recognition-train.html" target="other">Training a visual recognition model</a>
+See also: <a href="https://dataplatform.cloud.ibm.com/docs/content/analyze-data/visual-recognition-train.html">Training a visual recognition model</a>
 
 **Demo video**
 

@@ -1,5 +1,16 @@
-# THINK-2019_Scavenger_hunt
-Sample for THINK 2019 user experience session
+# Scavenger hunt BINGO
+
+This sample demonstrates how to implement a scavenger hunt BINGO web app that uses a visual recognition model to classify images:
+
+<img src="instructions/idea.png"/>
+
+This sample includes:
+- Training data and test images of indoor objects
+- A Python notebook for prototyping app code
+- Python Flask web app
+- Instructions and videos showing how to train and test the visual recognition model, how to run the web app on your local computer, and how to push the web app to IBM Cloud
+
+
 
 <p>&nbsp;</p>
 
@@ -156,7 +167,7 @@ See also: <a href="https://dataplatform.cloud.ibm.com/docs/content/analyze-data/
 <p>&nbsp;</p>
 
 
-### Step 3  Test the model in Watson Studio
+### Step 3: Test the model in Watson Studio
 
 1. <p>When training is complete, a link to the model details page is given in a message.  Click the link to go to the model details page.  (Alternatively, click on the model name in the <b>Assets</b> page of your project to get to the model details page.)</p>
 2. <p>Click the <b>Test</b> tab.</p>

@@ -1,0 +1,117 @@
+body
+{
+margin: 0px;
+padding: 0px;
+font-family: Helvetica, Arial, sans-serif;
+font-size: 90%;
+}
+
+#h1_title
+{
+position: absolute;
+top: 20px;
+left: 30px;
+}
+
+#file_upload_div
+{
+position: absolute;
+top: 90px;
+left: 30px;
+height: 80px;
+width: 300px;
+border: 2px dashed grey;
+border-radius: 10px;
+margin: 0px;
+padding: 15px 0px 0px 0px;
+text-align: center;
+display: inline-block;
+}
+
+#file_upload_div p
+{
+margin: 0px 0px 10px 0px;
+padding: 0px;
+}
+
+#browse_button
+{
+margin: 0px 0px 0px 5px;
+padding: 3px 15px 2px 14px;
+display: inline-block;
+border: 1px solid grey;
+background: white;
+}
+
+#file_input
+{
+position: absolute;
+top: 92px;
+left: 32px;
+height: 95px;
+width: 300px;
+margin: 0px;
+padding: 0px;
+cursor: pointer;
+opacity: 0;
+}
+
+.spinner
+{
+position: absolute;
+top: 120px;
+left: 260px;
+border: 10px solid #ddddbb;
+border-top: 10px solid #3d5c5c;
+border-radius: 50%;
+width: 30px;
+height: 30px;
+animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(360deg); }
+}
+
+#h2_title
+{
+position: absolute;
+top: 240px;
+left: 30px;
+margin: 0px;
+padding: 0px;
+}
+
+#bingo_card_div
+{
+position: absolute;
+top: 280px;
+left: 30px;
+margin: 0px;
+padding: 5px 10px 5px 5px;
+border: 1px solid grey;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+display: inline-block;
+width: 390px;
+}
+
+.bingo_entry_div
+{
+margin: 5px 0px 0px 5px;
+padding: 0px;
+display: inline-block;
+height: 120px;
+width: 120px;
+border: 1px solid grey;
+font-size: 60px;
+}
+
+.bingo_entry_div p
+{
+margin: 0px 10px 0px 0px;
+padding: 0px;
+float: right;
+color: green;
+}
+

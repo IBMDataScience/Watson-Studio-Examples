@@ -324,4 +324,4 @@ See also:
 
 <p>&nbsp;</p>
 <hr>
-<p>Copyright © 2019 IBM. This tutorial and its source code are released under the terms of the MIT License.>/P
+<p>Copyright © 2019 IBM. This tutorial and its source code are released under the terms of the MIT License.</p>

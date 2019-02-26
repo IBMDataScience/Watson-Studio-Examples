@@ -323,4 +323,5 @@ See also:
 <a href="https://youtu.be/jzSoO6eNmOE"><img src="instructions/thumbnail-cloud.png" width="300px"/></a>
 
 <p>&nbsp;</p>
-
+<hr>
+<p>Copyright © 2019 IBM. This tutorial and its source code are released under the terms of the MIT License.>/P

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<link href="css/styles.css" rel="stylesheet">
+<script type="text/javascript" src="javascript/javascript.js"></script>
+<!-- <script type="text/javascript" src="{ { url_for( "static", filename="javascript.js") } }"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body onload="setBINGOCardSize();populateBINGOCardEntries();" onresize="setBINGOCardSize();">
+
+
+<audio id='honk'><source src='https://github.com/spackows/THINK-2019_Scavenger_hunt/blob/master/indoor-scavenger-hunt-web-app/code/static/audio/pig-toy-squeak.wav?raw=true' type='audio/wav'></audio>
+<audio id='bell'><source src='https://github.com/spackows/THINK-2019_Scavenger_hunt/blob/master/indoor-scavenger-hunt-web-app/code/static/audio/bell.wav?raw=true' type='audio/wav'></audio>
+
+
+<h1 id="h1_title">Scavenger hunt BINGO</h1>
+
+<div id="file_upload_div">
+<p>Drag an image here</p>
+<p>or <button id="browse_button">Click here</button></p>
+</div>
+<form id="file_upload_form" method="post" enctype="multipart/form-data" onmouseover="loadAudio();" onclick="loadAudio();">
+<input id="file_input" name="image_file" type="file" accept="image/*" multiple="false" onchange="uploadImage();"></p>
+</form>
+
+<div id='results_spinner' class='spinner' style='display: none;'></div>
+
+<h2 id="h2_title">BINGO card</h2>
+<div id="bingo_card_div">
+<div id="bingo_0" class="bingo_entry_div"></div>
+<div id="bingo_1" class="bingo_entry_div"></div>
+<div id="bingo_2" class="bingo_entry_div"></div><br/>
+<div id="bingo_3" class="bingo_entry_div"></div>
+<div id="bingo_4" class="bingo_entry_div"></div>
+<div id="bingo_5" class="bingo_entry_div"></div><br/>
+<div id="bingo_6" class="bingo_entry_div"></div>
+<div id="bingo_7" class="bingo_entry_div"></div>
+<div id="bingo_8" class="bingo_entry_div"></div>
+</div>
+
+<script>
+function uploadImage()
+{
+    document.getElementById( 'results_spinner' ).style.display = 'block';
+    
+    var form_data = new FormData( document.getElementById( "file_upload_form" ) );
+
+    $.ajax( { type: 'POST',
+              url: './uploadimagefile',
+              data: form_data,
+              contentType: false,
+              cache: false,
+              processData: false,
+              success: function( results )
+              {
+                document.getElementById( 'results_spinner' ).style.display = 'none';
+                
+                if( "error" in results )
+                {
+                    alert( results[ "error" ] );
+                }
+                else if( ( "top_class" in results ) && ( "score" in results[ "top_class" ] ) && ( "class" in results[ "top_class" ] ) )
+                {
+                    if( results[ "top_class" ][ "score" ] > 0.8 )
+                    {
+                        if( addCheckmark( results[ "top_class" ][ "class" ] ) )
+                        {
+                            playBell();
+                        }
+                        else
+                        {
+                            playHonk();
+                        }
+                    }
+                    else
+                    {
+                        playHonk();
+                    }
+                }
+                else
+                {
+                    alert( "An unexpected result was returned from the server:\n\n" + JSON.stringify( results, null, 3 ) );
+                }
+              }
+
+            } );
+}
+</script>
+
+</body>

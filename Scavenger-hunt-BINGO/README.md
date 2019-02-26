@@ -57,7 +57,7 @@ After you get the sample working, collect images of your favorite objects or tou
     <li>Click <b>New project</b>, select <b>Visual Recognition</b>, and then follow the prompts to associate needed services with the project: IBM Cloud Object Storage and IBM Watson Visual Recognition.</li>
     </ol>
     <p>See also: <a href="https://dataplatform.cloud.ibm.com/docs/content/getting-started/projects.html">Creating projects</a></li>
-<li><p>To be able to run the sample web app on your local computer, <a href="https://www.python.org/downloads">install Python</a></p>
+<li><p>To be able to run the sample web app on your local computer, <a href="https://www.python.org">install Python</a></p>
     <ul>
     <li>Make sure to have the installer add Python to your environments variables</li>
     <li>Mac users, also install <code>pip</code> by issuing this command: <pre><code>sudo easy_install pip</code></pre></li>

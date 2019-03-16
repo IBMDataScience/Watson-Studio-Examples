@@ -130,7 +130,7 @@ See also: <a href="https://dataplatform.cloud.ibm.com/docs/content/analyze-data/
     <ol>
     <li>Click <b>Add to project</b> and then click <b>NOTEBOOK</b></li>
     <li>Click the tab labeled <b>From URL</b></li>
-    <li>In the box labeled <b>Notebook URL</b>, paste the URL of this sample notebook: <a href="flags-notebook/flags-test-notebook.ipynb"><code>flags-test-notebook</code></a></li>
+    <li>In the box labeled <b>Notebook URL</b>, paste the URL of this sample notebook: <a href="flags-notebooks/flags-test-notebook.ipynb"><code>flags-test-notebook</code></a></li>
     <li>Give the notebook a name</li>
     <li>Click <b>Create Notebook</b></li>
     </ol></li>

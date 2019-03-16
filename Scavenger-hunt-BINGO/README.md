@@ -2,7 +2,7 @@
 ## How Watson Studio can help you rapidly prototype AI solutions
 ### Scavenger hunt BINGO
 
-IBM Watson Studio has powerful machine learning and deep learning features. But did you know it also has simple tools for quickly training and deploying AI models and for prototyping app code? In this session, we'll show you how to leverage open data to train a visual recognition model using the graphical model builder in Watson Studio and then create a fun, scavenger hunt app that uses that model.
+IBM Watson Studio has powerful machine learning and deep learning features. But did you know it also has simple tools for quickly training and deploying AI models and for prototyping app code? In this session, we'll show you how to train a visual recognition model using the graphical model builder in Watson Studio and then create a fun, scavenger hunt app that uses that model.
 
 This sample demonstrates how to build a scavenger hunt BINGO web app that uses a visual recognition model to classify images:
 
@@ -57,7 +57,7 @@ After you get the sample working, collect images of your favorite objects or tou
     <li>Click <b>New project</b>, select <b>Visual Recognition</b>, and then follow the prompts to associate needed services with the project: IBM Cloud Object Storage and IBM Watson Visual Recognition.</li>
     </ol>
     <p>See also: <a href="https://dataplatform.cloud.ibm.com/docs/content/getting-started/projects.html">Creating projects</a></li>
-<li><p>To be able to run the sample web app on your local computer, <a href="https://www.python.org/downloads">install Python</a></p>
+<li><p>To be able to run the sample web app on your local computer, <a href="https://www.python.org">install Python</a></p>
     <ul>
     <li>Make sure to have the installer add Python to your environments variables</li>
     <li>Mac users, also install <code>pip</code> by issuing this command: <pre><code>sudo easy_install pip</code></pre></li>
@@ -324,3 +324,7 @@ See also:
 
 <p>&nbsp;</p>
 
+
+=======
+<hr>
+<p>Copyright © 2019 IBM. This tutorial and its source code are released under the terms of the MIT License.</p>

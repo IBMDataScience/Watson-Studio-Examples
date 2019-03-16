@@ -249,11 +249,11 @@ push your app to IBM Cloud by issuing the following command:
 </code></pre></p></li>
 </ol>
 
+<a id="credits"></a>
 <p>&nbsp;</p>
 
 
 # Image credits and citations
-<a id="credits"></a>
 
 #### Images from Unsplash (https://unsplash.com/license)
 - Photo by Joshua Hoehne (https://unsplash.com/photos/pSSYVe4rcs0)

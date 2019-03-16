@@ -186,11 +186,7 @@ See also:
 </tr>
 <tr>
   <td><code>static/index.html</code></td>
-  <td>HTML for the web page interface of the app</td>
-</tr>
-<tr>
-  <td><code>static/javascript/javascript.js</code></td>
-  <td>Javascript functions implementation callbacks for the web page</td>
+  <td>HTML and Javascript (AJAX) for the web page interface of the app</td>
 </tr>
 <tr>
   <td><code>static/css/styles.css</code></td>

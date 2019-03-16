@@ -46,7 +46,7 @@ These instructions describe how to build the sample web app with given, open sou
     <li>Click <b>New project</b>, select <b>Visual Recognition</b>, and then follow the prompts to associate needed services with the project: IBM Cloud Object Storage and IBM Watson Visual Recognition.</li>
     </ol>
     <p>See also: <a href="https://dataplatform.cloud.ibm.com/docs/content/getting-started/projects.html">Creating projects</a></li>
-<li><p>To be able to run the sample web app on your local computer, <a href="https://www.python.org/downloads">install Python</a></p>
+<li><p>To be able to run the sample web app on your local computer, <a href="https://www.python.org">install Python</a></p>
     <ul>
     <li>Make sure to have the installer add Python to your environments variables</li>
     <li>Mac users, also install <code>pip</code> by issuing this command: <pre><code>sudo easy_install pip</code></pre></li>
@@ -84,7 +84,7 @@ These instructions describe how to build the sample web app with given, open sou
 </tr>
 </table>
 
-See the [image credits and citations](#credits)
+See the <a href="#credits">image credits and citations</a>
 
 #### Tips and comments
 - <p>With the IBM Watson Visual Recognition service, you can use images as small as 224 x 224 pixels with no loss of performance.  So, preprocessing training images to be 224 x 224  can make life easier (faster upload times, for example, than when using larger images.)</p>
@@ -253,7 +253,7 @@ push your app to IBM Cloud by issuing the following command:
 
 
 # Image credits and citations
-<a id="crdits"></a>
+<a id="credits"></a>
 
 #### Images from Unsplash (https://unsplash.com/license)
 - Photo by Joshua Hoehne (https://unsplash.com/photos/pSSYVe4rcs0)

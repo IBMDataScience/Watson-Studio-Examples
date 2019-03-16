@@ -115,13 +115,14 @@ See also: <a href="https://dataplatform.cloud.ibm.com/docs/content/analyze-data/
 1. <p>When training is complete, a link to the model details page is given in a message.  Click the link to go to the model details page.  (Alternatively, click on the model name in the <b>Assets</b> page of your project to get to the model details page.)</p>
 2. <p>Click the <b>Test</b> tab.</p>
 3. <p>Download these test images to your local computer: <a href="flags-model/test_images">Test images</a></p>
-3. <p>Drag test images onto the test area for classification.</p>
+4. <p>Drag test images onto the test area for classification.</p>
 
 <p>&nbsp;</p>
 
 
 ### Step 4: Work with your trained model in a notebook in Watson Studio
 
+**Note:**  Both sample notebooks work in the FREE Python 3.5 environment in Watson Studio.
 
 #### 4.1
 
@@ -158,7 +159,7 @@ See also:
 
 **Demo video**
 
-<a href=""><img src="instructions/thumbnail-flags-notebook.png" width="300px"/></a>
+<a href="https://youtu.be/hFH0jgfvX8M"><img src="instructions/thumbnail-flags-notebook-video.png" width="300px"/></a>
 
 <p>&nbsp;</p>
 

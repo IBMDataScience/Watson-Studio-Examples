@@ -159,7 +159,7 @@ See also:
 
 **Demo video**
 
-<a href="https://youtu.be/hFH0jgfvX8M"><img src="instructions/thumbnail-flags-notebook-video.png" width="300px"/></a>
+<a href="https://youtu.be/hFH0jgfvX8M"><img src="instructions/thumbnail-flags-notebook-video.png" width="50%"/></a>
 
 <p>&nbsp;</p>
 

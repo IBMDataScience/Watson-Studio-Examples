@@ -6,7 +6,7 @@ IBM Watson Studio has powerful machine learning and deep learning features. But 
 
 This sample demonstrates how to build a web app that uses a visual recognition model to classify images of flags and then play the national anthem of the country of the flag:
 
-<img src="instructions/train-flags-model.png" with="50%"/>
+<img src="instructions/train-flags-model.png" width="50%"/>
 
 This sample includes:
 - Training data and test images of flags
@@ -25,7 +25,7 @@ You can complete this sample using the free (Lite) version of these services:
 
 
 ## Demo video
-<a href="https://youtu.be/OpXfZ4Cx02I"><img src="instructions/thumbnail-flags-demo-video.jpg" width="300px"/></a>
+<a href="https://youtu.be/OpXfZ4Cx02I"><img src="instructions/thumbnail-flags-demo-video.png" width="50%"/></a>
 
 <p>&nbsp;</p>
 

@@ -150,7 +150,7 @@ See also: <a href="https://dataplatform.cloud.ibm.com/docs/content/analyze-data/
 
 #### 4.2
 
-Repeat the steps in 4.1 with the second sample notebook, `cat-translator-app-code-notebook`.
+Repeat the steps in 4.1 with the second sample notebook, <a href="cat-translator-notebooks/cat-translator-app-code-notebook.ipynb"><code>cat-translator-app-code-notebook</code></a>.
 
 In this notebook, you can see some how to define some functions that will be needed in the sample Python web app.
 

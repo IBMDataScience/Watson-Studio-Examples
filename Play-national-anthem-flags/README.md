@@ -291,3 +291,10 @@ push your app to IBM Cloud by issuing the following command:
 - canada-flag-wave-medium.jpg (https://www.countryflags.com/en/canada-flag-image.html)
 - canada-flag-waving-medium.jpg (https://www.countryflags.com/en/canada-flag-image.html)
 - canada-flag-heart-3d-medium.jpg (https://www.countryflags.com/en/canada-flag-image.html)
+
+
+<p>&nbsp;</p>
+
+=======
+<hr>
+<p>Copyright © 2019 IBM. This tutorial and its source code are released under the terms of the MIT License.</p>

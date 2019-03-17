@@ -6,7 +6,7 @@ IBM Watson Studio has powerful machine learning and deep learning features. But 
 
 This sample demonstrates how to build a web app that uses a visual recognition model to classify images of flags and then play the national anthem of the country of the flag:
 
-<img src="instructions/train-flags-model.png" width="50%"/>
+<img src="instructions/train-flags-model.png" width="75%"/>
 
 This sample includes:
 - Training data and test images of flags
@@ -25,7 +25,7 @@ You can complete this sample using the free (Lite) version of these services:
 
 
 ## Demo video
-<a href="https://youtu.be/OpXfZ4Cx02I"><img src="instructions/thumbnail-flags-demo-video.png" width="50%"/></a>
+<a href="https://youtu.be/OpXfZ4Cx02I"><img src="instructions/thumbnail-flags-demo-video.png" width="75%"/></a>
 
 <p>&nbsp;</p>
 
@@ -159,7 +159,7 @@ See also:
 
 **Demo video**
 
-<a href="https://youtu.be/hFH0jgfvX8M"><img src="instructions/thumbnail-flags-notebook-video.png" width="50%"/></a>
+<a href="https://youtu.be/hFH0jgfvX8M"><img src="instructions/thumbnail-flags-notebook-video.png" width="75%"/></a>
 
 <p>&nbsp;</p>
 
@@ -169,6 +169,8 @@ See also:
 1. <p>Download and unzip the sample app from here: <a href="flags-web-app/flags-web-app.zip">Sample Python Flask web app</a></p>
 2. <p>In the file <code>server.py</code>, paste your model ID and credentials (just like in the sample notebooks)</p>
 3. <p>Notice that the functions <code>getKey</code>, <code>getTopClass</code>, and <code>classifyFlag</code> that were prototyped in the notebook are used in the file <code>server.py</code></p>
+
+<img src="instructions/flags-app-code.png" width="75%"/></a>
 
 #### Sample file highlights
 <table>
@@ -197,10 +199,6 @@ See also:
   <td>Audio for indicating classification results</td>
 </tr>
 </table>
-
-**Demo video**
-
-<a href=""><img src="instructions/thumbnail-copy-code.png" width="300px"/></a>
 
 <p>&nbsp;</p>
 

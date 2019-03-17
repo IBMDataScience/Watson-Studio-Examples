@@ -161,7 +161,7 @@ See also:
 
 **Demo video**
 
-<a href=""><img src="readme-images/thumbnail-cat-translator-notebook-video.png" width="75%"/></a>
+<a href="KCiwhd6yWwKlFvk4HhjjTOGA_3rt3-57gWlB_tliZzia"><img src="readme-images/thumbnail-cat-translator-notebook-video.png" width="75%"/></a>
 
 <p>&nbsp;</p>
 

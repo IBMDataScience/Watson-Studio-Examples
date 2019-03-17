@@ -212,7 +212,7 @@ See also:
 
 **Demo video**
 
-<a href=""><img src="instructions/thumbnail-local.png" width="300px"/></a>
+<a href="https://youtu.be/M9zm5TYSiP8"><img src="instructions/thumbnail-flags-local.png" width="50%"/></a>
 
 <p>&nbsp;</p>
 

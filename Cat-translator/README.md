@@ -1,15 +1,15 @@
 # From wild idea to AI app:
 ## How Watson Studio can help you rapidly prototype AI solutions
-### Flags national anthem app
+### Cat translator app
 
-IBM Watson Studio has powerful machine learning and deep learning features. But did you know it also has simple tools for quickly training and deploying AI models and for prototyping app code? This example shows you how to leverage open data to train a visual recognition model using the graphical model builder in Watson Studio and then create a web app that uses that model.
+IBM Watson Studio has powerful machine learning and deep learning features. But did you know it also has simple tools for quickly training and deploying AI models and for prototyping app code? This example shows you how to train a visual recognition model using the graphical model builder in Watson Studio and then create a web app that uses that model.
 
-This sample demonstrates how to build a web app that uses a visual recognition model to classify images of flags and then play the national anthem of the country of the flag:
+This sample demonstrates how to build a web app that uses a visual recognition model to classify spectrograms of cat vocalization:
 
-<img src="readme-images/train-flags-model.png" width="75%"/>
+<img src="readme-images/cat-translator-train-model.png" width="75%"/>
 
 This sample includes:
-- Training data and test images of flags
+- Training data and test images of spectrograms
 - A short Python notebook for testing the model 
 - A longer Python notebook for prototyping app code
 - Python Flask web app code
@@ -19,18 +19,20 @@ You can complete this sample using the free (Lite) version of these services:
 - [IBM Cloud](https://cloud.ibm.com/registration)
 - [IBM Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio)
 - [IBM Watson Visual Recognition](https://cloud.ibm.com/catalog/services/visual-recognition)
+- [IBM Watson Text to Speech](https://cloud.ibm.com/catalog/services/text-to-speech)
 - [Python web app on IBM Cloud](https://cloud.ibm.com/catalog/starters/python) (free for 30 days)
 
 <p>&nbsp;</p>
 
 
 ## Demo video
-<a href="https://youtu.be/OpXfZ4Cx02I"><img src="readme-images/thumbnail-flags-demo-video.png" width="75%"/></a>
+<a href="https://youtu.be/I1TZIWA6pxU"><img src="readme-images/thumbnail-cat-translator-demo-video.png" width="75%"/></a>
 
 <p>&nbsp;</p>
 
+
 ## Instructions
-These instructions describe how to build the sample web app with given, open source images for training and testing.
+These instructions describe how to build the sample web app with given spectrograms for training and testing.
 
 <p>&nbsp;</p>
 
@@ -39,6 +41,7 @@ These instructions describe how to build the sample web app with given, open sou
 
 <ol>
 <li><p>Sign up for IBM Cloud: <a href="https://www.ibm.com/cloud/">IBM Cloud sign up</a></p></li>
+<li><p>Create an instance of the IBM Watson Text to Speech service on IBM Cloud: <a href="https://cloud.ibm.com/catalog/services/text-to-speech">IBM Watson Text to Speech</a></p></li>
 <li><p>Create an instance of the IBM Watson Studio service on IBM Cloud: <a href="https://cloud.ibm.com/catalog/services/watson-studio">IBM Watson Studio</a></p></li>
 <li><p>Create a project in Watson Studio:</p>
     <ol>
@@ -57,7 +60,7 @@ These instructions describe how to build the sample web app with given, open sou
         </ol>
         <p>See: <a href="https://www.architectryan.com/2012/10/02/add-to-the-path-on-mac-os-x-mountain-lion">Complete instructions</a></p></li>
     </ul></li>
-<li>To be able to push the sample web app to IBM Cloud, <a href="https://console.bluemix.net/docs/cli/reference/ibmcloud/download_cli.html#install_use">install the IBM Cloud CLI</a></li>
+<li><p>To be able to push the sample web app to IBM Cloud, <a href="https://console.bluemix.net/docs/cli/reference/ibmcloud/download_cli.html#install_use">install the IBM Cloud CLI</a></p></li>
 </ol>
 
 <p>&nbsp;</p>
@@ -66,32 +69,30 @@ These instructions describe how to build the sample web app with given, open sou
 ### Step 1: Collect training and test data
 
 1. <p>Download these two .zip files to your local computer: <a href="flags-model/training_data">Training data</a></p>
-2. <p>Download these 10 images to your local computer: <a href="flags-model/test_images">Test images</a></p>
+2. <p>Download these four images to your local computer: <a href="flags-model/test_images">Test images</a></p>
 
 #### About the sample training data and test images
 
-- The sample training data includes 17 images of the American flag and 19 images of the Canadian flag
-- The sample test images are 10 images that were not part of the training data
+- The sample training data includes 25 spectrograms of a cat wanting to be fed, and 15 spectrograms of a cat wanting to go through a closed door
+- The sample test images are 10 spectrograms that were not part of the training data
 
 <table>
 <tr>
-  <td><img src="flags-model/test_images/alex-martinez-43505-unsplash.jpg" width="100"/></td>
-  <td><img src="flags-model/test_images/torn-american-flag.jpg" width="100"/></td>
-</tr>
-<tr>
-  <td><img src="flags-model/test_images/canada-1157521_1920.jpg" width="100"/></td>
-  <td><img src="flags-model/test_images/heart-flag-canada.jpg" width="100"/></td>
+  <td><b>Feed me</b><img src="cat-translator-model/test_images/cat-food-test_01.png" width="100"/></td>
+  <td><b>Open door</b><img src="cat-translator-model/test_images/cat-door-test_01.png" width="100"/></td>
 </tr>
 </table>
 
-See the <a href="#credits">image credits and citations</a>
+#### About spectrograms
 
-#### Tips and comments
-- <p>With the IBM Watson Visual Recognition service, you can use images as small as 224 x 224 pixels with no loss of performance.  So, preprocessing training images to be 224 x 224  can make life easier (faster upload times, for example, than when using larger images.)</p>
-- <p>The guidelines recommend including at least 50 training images in each class.  However, if you don't have 50 images for one or more classes, try to train the model with what you have, because it might work well enough for you.  (The sample training data here has 17 and 19 images for each of the two classes.)</p>
-- <p>Including a negative class in training isn't always needed.  Experiment to determine what works best for your case.  (This sample does not include a negative class.)</p>
+See Wikipedia: <a href="https://en.wikipedia.org/wiki/Spectrogram">Spectrogram</a>.
 
-See: [IBM Watson Visual Recognition guidelines for good training](https://console.bluemix.net/docs/services/visual-recognition/customizing.html#customizing-guidelines-training)
+The spectrograms in this example show this information:
+- Horizontal axis: Time (from the beginning of the "meow" sound to the end)
+- Vertical axis: Frequency (low-pitched sound at the bottom, high-pitched sound near the top)
+- Color: Volume (dark for quiet, bright yellow for loud)
+
+<img src="readme-images/spectrogram.png" width="50%"/>
 
 <p>&nbsp;</p>
 
@@ -127,11 +128,11 @@ See also: <a href="https://dataplatform.cloud.ibm.com/docs/content/analyze-data/
 #### 4.1
 
 <ol>
-<li><p>Add the first sample notebook, <code>flags-test-notebook</code>, to your project:</p>
+<li><p>Add the first sample notebook, <code>cat-translator-test-notebook</code>, to your project:</p>
     <ol>
     <li>Click <b>Add to project</b> and then click <b>NOTEBOOK</b></li>
     <li>Click the tab labeled <b>From URL</b></li>
-    <li>In the box labeled <b>Notebook URL</b>, paste the URL of this sample notebook: <a href="flags-notebooks/flags-test-notebook.ipynb"><code>flags-test-notebook</code></a></li>
+    <li>In the box labeled <b>Notebook URL</b>, paste the URL of this sample notebook: <a href="cat-translator-notebooks/cat-translator-test-notebook.ipynb"><code>cat-translator-test-notebook</code></a></li>
     <li>Give the notebook a name</li>
     <li>Click <b>Create Notebook</b></li>
     </ol></li>
@@ -149,26 +150,27 @@ See also: <a href="https://dataplatform.cloud.ibm.com/docs/content/analyze-data/
 
 #### 4.2
 
-Repeat the steps in 4.1 with the second sample notebook, `flags-app-code-notebook`.
+Repeat the steps in 4.1 with the second sample notebook, `cat-translator-app-code-notebook`.
 
 In this notebook, you can see some how to define some functions that will be needed in the sample Python web app.
 
 See also:
 - [Notebooks in Watson Studio](https://dataplatform.cloud.ibm.com/docs/content/analyze-data/notebooks-parent.html)
 - [IBM Watson Visual Recognition API](https://cloud.ibm.com/apidocs/visual-recognition?code=python)
+- [IBM Watson Text to Speech](https://cloud.ibm.com/apidocs/text-to-speech?code=python)
 
 **Demo video**
 
-<a href="https://youtu.be/hFH0jgfvX8M"><img src="readme-images/thumbnail-flags-notebook-video.png" width="75%"/></a>
+<a href=""><img src="readme-images/thumbnail-cat-translator-notebook-video.png" width="75%"/></a>
 
 <p>&nbsp;</p>
 
 
 ### Step 5: Copy prototype code into a web app
 
-1. <p>Download and unzip the sample app from here: <a href="flags-web-app/flags-web-app.zip">Sample Python Flask web app</a></p>
+1. <p>Download and unzip the sample app from here: <a href="cat-translator-web-app/cat-translator-web-app.zip">Sample Python Flask web app</a></p>
 2. <p>In the file <code>server.py</code>, paste your model ID and credentials (just like in the sample notebooks)</p>
-3. <p>Notice that the functions <code>getKey</code>, <code>getTopClass</code>, and <code>classifyFlag</code> that were prototyped in the notebook are used in the file <code>server.py</code></p><img src="readme-images/flags-app-code.png" width="75%"/></a>
+3. <p>Notice that the functions <code>getKey</code>, <code>getTopClass</code>, and <code>translateMeow</code> that were prototyped in the notebook are used in the file <code>server.py</code></p><img src="readme-images/cat-translator-app-code.png" width="75%"/></a>
 
 #### Sample file highlights
 <table>
@@ -202,11 +204,11 @@ See also:
 1. Open a command prompt and then navigate to the directory containing the file <code>server.py</code>
 2. From the command line, start the Python Flask server by issuing the following command: <pre><code>python server.py</code></pre>
 3. Open a web browser to: [http://localhost:8000/](http://localhost:8000)
-4. Classify one of the test images
+4. Translate one of the sample meaows
 
 **Demo video**
 
-<a href="https://youtu.be/M9zm5TYSiP8"><img src="readme-images/thumbnail-flags-local-video.png" width="75%"/></a>
+<a href=""><img src="readme-images/thumbnail-cat-translator-local-video.png" width="75%"/></a>
 
 <p>&nbsp;</p>
 
@@ -240,60 +242,10 @@ push your app to IBM Cloud by issuing the following command:
 
 **Demo video**
 
-<a href="https://youtu.be/v465uh_5ct8"><img src="readme-images/thumbnail-flags-push-video.png" width="75%"/></a>
-
-
-
-<a id="credits"></a>
-<p>&nbsp;</p>
-
-
-# Image credits and citations
-
-#### Images from Unsplash (https://unsplash.com/license)
-- Photo by Joshua Hoehne (https://unsplash.com/photos/pSSYVe4rcs0)
-- Photo by Joshua Hoehne (https://unsplash.com/photos/7s1j-DZ5KYQ)
-- Photo by DAVIDCOHEN (https://unsplash.com/photos/7lmq5Gniypg)
-- Photo by Jordhan Madec (https://unsplash.com/photos/0RMgorRDQQY)
-- Photo by Anthony DELANOIX (https://unsplash.com/photos/nxpw92fiGw8)
-- Photo by Jp Valery (https://unsplash.com/photos/-ph1Fqhx5Ko)
-- Photo by Matt Botsford (https://unsplash.com/photos/Jf4lKpDgklI)
-- Photo by Alex Martinez (https://unsplash.com/photos/G0SLCrt5OCY)
-- Photo by Marco Krenn (https://unsplash.com/photos/iVtNNdvhldA)
-- Photo by Jordan Crawford (https://unsplash.com/photos/aE94tJ61F1E)
-- Photo by Raúl Nájera (https://unsplash.com/photos/TAqspfWom04)
-- Photo by Adam Birkett (https://unsplash.com/photos/Zf4NoRKEhtE)
-- Photo by Kevin Morris (https://unsplash.com/photos/yB5PHCOgPeo)
-- Photo by Cal Engel (https://unsplash.com/photos/4IzblBCtVyk)
-- Photo by Valentino Funghi (https://unsplash.com/photos/fUWCe_pPPY0)
-- Photo by Jacob Morrison (https://unsplash.com/photos/-RO2DFPl7wE)
-- Photo by Cris DiNoto (https://unsplash.com/photos/OiQUrC4pgZc)
-- Photo by Jonathan Denney (https://unsplash.com/photos/Ds0xACooELY)
-- Photo by Pam Menegakis (https://unsplash.com/photos/Qp4VpgQ7-KM)
-- Photo by Hermes Rivera (https://unsplash.com/photos/ahHn48-zKWo)
-
-
-#### Images licences under CC0 Public Domain
-- https://www.publicdomainpictures.net/en/view-image.php?image=86181&picture=heart-flag-canada
-- https://www.publicdomainpictures.net/en/view-image.php?image=56959&picture=canadian-flag
-- https://www.publicdomainpictures.net/en/view-image.php?image=87954&picture=torn-american-flag
-- https://pixabay.com/en/canadian-flag-canada-maple-country-1229484/
-- https://pixabay.com/en/flag-canadian-country-nation-220052/
-- https://pixabay.com/en/canada-north-america-national-flag-1157521/
-- https://pixabay.com/en/canada-hand-flag-country-pride-649858/
-- https://pixabay.com/en/canada-flag-hdr-2262774/
-- https://pixabay.com/en/flag-canada-red-white-canadian-472394/
-- https://pixabay.com/en/international-flag-liberia-2694616/
-
-
-#### Images from Country Flags (https://www.countryflags.com/en/), part of roll-up (https://www.roll-up.com/en/)
-- canada-flag-medium.jpg (https://www.countryflags.com/en/canada-flag-image.html)
-- canada-flag-wave-medium.jpg (https://www.countryflags.com/en/canada-flag-image.html)
-- canada-flag-waving-medium.jpg (https://www.countryflags.com/en/canada-flag-image.html)
-- canada-flag-heart-3d-medium.jpg (https://www.countryflags.com/en/canada-flag-image.html)
-
+<a href=""><img src="readme-images/thumbnail-cat-translator-push-video.png" width="75%"/></a>
 
 <p>&nbsp;</p>
+
 
 =======
 <hr>

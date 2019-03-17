@@ -242,6 +242,12 @@ push your app to IBM Cloud by issuing the following command:
 </code></pre></p></li>
 </ol>
 
+**Demo video**
+
+<a href="https://youtu.be/v465uh_5ct8"><img src="instructions/thumbnail-flags-push.png" width="75%"/></a>
+
+
+
 <a id="credits"></a>
 <p>&nbsp;</p>
 

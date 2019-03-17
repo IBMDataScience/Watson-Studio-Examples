@@ -10,6 +10,8 @@ from watson_developer_cloud import VisualRecognitionV3
 model_id = '' # <-- PASTE YOUR MODEL ID HERE
 apikey   = '' # <-- PASTE YOUR APIKEY HERE
 
+visual_recognition = VisualRecognitionV3( version='2018-03-19', iam_apikey=apikey )
+
 def getKey( item ):
     return item["score"]
 
@@ -19,7 +21,6 @@ def getTopClass( results ):
     return sorted_results_classes[0]
 
 def classifyFlag( flag_image_filename ):
-    visual_recognition = VisualRecognitionV3( version='2018-03-19', iam_apikey=apikey )
     with open( flag_image_filename, 'rb' ) as image_file:
         results = visual_recognition.classify( image_file, threshold='0', classifier_ids=model_id ).get_result()
         print( 'Results:')

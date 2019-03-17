@@ -6,7 +6,7 @@ IBM Watson Studio has powerful machine learning and deep learning features. But 
 
 This sample demonstrates how to build a scavenger hunt BINGO web app that uses a visual recognition model to classify images:
 
-<img src="instructions/idea.png"/>
+<img src="readme-images/idea.png"/>
 
 This sample includes:
 - Training data and test images of indoor objects
@@ -31,8 +31,8 @@ You can complete this sample using the free (Lite) version of these services:
     <th>San Francisco scavenger hunt BINGO</th>
   </tr>
   <tr>
-        <td><a href="https://youtu.be/1u2qe3pJCyw"><img src="instructions/thumbnail-indoor.jpg" width="300px"/></a></td>
-    <td><a href="https://youtu.be/6yKptg4t37s"><img src="instructions/thumbnail-san-fran.jpg" width="300px"/></a></td>
+        <td><a href="https://youtu.be/1u2qe3pJCyw"><img src="readme-images/thumbnail-indoor.jpg" width="300px"/></a></td>
+    <td><a href="https://youtu.be/6yKptg4t37s"><img src="readme-images/thumbnail-san-fran.jpg" width="300px"/></a></td>
   </tr>
 </table>
 
@@ -106,16 +106,16 @@ The images include 8 different backgrounds:
 
 <table>
 <tr>
-  <td><b>white</b><br/><img src="instructions/background_03.png" width="100"/></td>
-  <td><b>yellow</b><br/><img src="instructions/background_07.png" width="100"/></td>
-  <td><b>beige</b><br/><img src="instructions/background_12.png" width="100"/></td>
-  <td><b>blue</b><br/><img src="instructions/background_18.png" width="100"/></td>
+  <td><b>white</b><br/><img src="readme-images/background_03.png" width="100"/></td>
+  <td><b>yellow</b><br/><img src="readme-images/background_07.png" width="100"/></td>
+  <td><b>beige</b><br/><img src="readme-images/background_12.png" width="100"/></td>
+  <td><b>blue</b><br/><img src="readme-images/background_18.png" width="100"/></td>
 </tr>
 <tr>
-  <td><b>green</b><br/><img src="instructions/background_24.png" width="100"/></td>
-  <td><b>black</b><br/><img src="instructions/background_34.png" width="100"/></td>
-  <td><b>dark wood</b><br/><img src="instructions/background_47.270.png" width="100"/></td>
-  <td><b>light wood</b><br/><img src="instructions/background_68.0.png" width="100"/></td>
+  <td><b>green</b><br/><img src="readme-images/background_24.png" width="100"/></td>
+  <td><b>black</b><br/><img src="readme-images/background_34.png" width="100"/></td>
+  <td><b>dark wood</b><br/><img src="readme-images/background_47.270.png" width="100"/></td>
+  <td><b>light wood</b><br/><img src="readme-images/background_68.0.png" width="100"/></td>
 </tr>
 </table>
 
@@ -170,7 +170,7 @@ See also: <a href="https://dataplatform.cloud.ibm.com/docs/content/analyze-data/
 
 **Demo video**
 
-<a href="https://youtu.be/mbzjzmSqU50"><img src="instructions/thumbnail-build-model.png" width="300px"/></a>
+<a href="https://youtu.be/mbzjzmSqU50"><img src="readme-images/thumbnail-build-model.png" width="300px"/></a>
 
 <p>&nbsp;</p>
 
@@ -184,7 +184,7 @@ See also: <a href="https://dataplatform.cloud.ibm.com/docs/content/analyze-data/
 
 **Demo video**
 
-<a href="https://youtu.be/otzT0jfvj70"><img src="instructions/thumbnail-test-model.png" width="300px"/></a>
+<a href="https://youtu.be/otzT0jfvj70"><img src="readme-images/thumbnail-test-model.png" width="300px"/></a>
 
 
 <p>&nbsp;</p>
@@ -219,7 +219,7 @@ See also:
 
 **Demo video**
 
-<a href="https://youtu.be/p5xDP5R-GtY"><img src="instructions/thumbnail-notebook.png" width="300px"/></a>
+<a href="https://youtu.be/p5xDP5R-GtY"><img src="readme-images/thumbnail-notebook.png" width="300px"/></a>
 
 
 <p>&nbsp;</p>
@@ -269,7 +269,7 @@ See also:
 
 **Demo video**
 
-<a href="https://youtu.be/AvX8nwS5eeg"><img src="instructions/thumbnail-copy-code.png" width="300px"/></a>
+<a href="https://youtu.be/AvX8nwS5eeg"><img src="readme-images/thumbnail-copy-code.png" width="300px"/></a>
 
 <p>&nbsp;</p>
 
@@ -283,7 +283,7 @@ See also:
 
 **Demo video**
 
-<a href="https://youtu.be/-n_5mH9cOPM"><img src="instructions/thumbnail-local.png" width="300px"/></a>
+<a href="https://youtu.be/-n_5mH9cOPM"><img src="readme-images/thumbnail-local.png" width="300px"/></a>
 
 <p>&nbsp;</p>
 
@@ -320,7 +320,7 @@ See also:
 
 **Demo video**
 
-<a href="https://youtu.be/jzSoO6eNmOE"><img src="instructions/thumbnail-cloud.png" width="300px"/></a>
+<a href="https://youtu.be/jzSoO6eNmOE"><img src="readme-images/thumbnail-cloud.png" width="300px"/></a>
 
 <p>&nbsp;</p>
 

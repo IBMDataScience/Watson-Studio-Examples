@@ -2,7 +2,7 @@
 ## How Watson Studio can help you rapidly prototype AI solutions
 ### Scavenger hunt BINGO
 
-IBM Watson Studio has powerful machine learning and deep learning features. But did you know it also has simple tools for quickly training and deploying AI models and for prototyping app code? In this session, we'll show you how to train a visual recognition model using the graphical model builder in Watson Studio and then create a fun, scavenger hunt app that uses that model.
+IBM Watson Studio has powerful machine learning and deep learning features. But did you know it also has simple tools for quickly training and deploying AI models and for prototyping app code? This example shows you how to train a visual recognition model using the graphical model builder in Watson Studio and then create a fun, scavenger hunt app that uses that model.
 
 This sample demonstrates how to build a scavenger hunt BINGO web app that uses a visual recognition model to classify images:
 
@@ -236,10 +236,6 @@ See also:
 <tr>
   <th>File</th>
   <th>Description</th>
-</tr>
-<tr>
-  <td><code>README.md</code></td>
-  <td>Instructions for running the app locally and pushing the app to IBM Cloud</td>
 </tr>
 <tr>
   <td><code>server.py</code></td>

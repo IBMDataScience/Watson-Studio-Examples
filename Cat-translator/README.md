@@ -78,8 +78,8 @@ These instructions describe how to build the sample web app with given spectrogr
 
 <table>
 <tr>
-  <td><b>Feed me</b><img src="cat-translator-model/test_images/cat-food-test_01.png" width="100"/></td>
-  <td><b>Open door</b><img src="cat-translator-model/test_images/cat-door-test_01.png" width="100"/></td>
+  <td><b>Feed me</b><br/><img src="cat-translator-model/test_images/cat-food-test_01.png" width="100"/></td>
+  <td><b>Open door</b><br/><img src="cat-translator-model/test_images/cat-door-test_01.png" width="100"/></td>
 </tr>
 </table>
 

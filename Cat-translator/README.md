@@ -208,7 +208,7 @@ See also:
 
 **Demo video**
 
-<a href=""><img src="readme-images/thumbnail-cat-translator-local-video.png" width="75%"/></a>
+<a href="https://youtu.be/6CEGDoT831A"><img src="readme-images/thumbnail-cat-translator-local-video.png" width="75%"/></a>
 
 <p>&nbsp;</p>
 

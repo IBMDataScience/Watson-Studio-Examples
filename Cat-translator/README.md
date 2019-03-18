@@ -242,7 +242,7 @@ push your app to IBM Cloud by issuing the following command:
 
 **Demo video**
 
-<a href=""><img src="readme-images/thumbnail-cat-translator-push-video.png" width="75%"/></a>
+<a href="https://youtu.be/40tOK0MNvIk"><img src="readme-images/thumbnail-cat-translator-push-video.png" width="75%"/></a>
 
 <p>&nbsp;</p>
 

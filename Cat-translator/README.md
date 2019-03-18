@@ -85,14 +85,14 @@ These instructions describe how to build the sample web app with given spectrogr
 
 #### About spectrograms
 
-See Wikipedia: <a href="https://en.wikipedia.org/wiki/Spectrogram">Spectrogram</a>.
-
 The spectrograms in this example show this information:
 - Horizontal axis: Time (from the beginning of the "meow" sound to the end)
 - Vertical axis: Frequency (low-pitched sound at the bottom, high-pitched sound near the top)
 - Color: Volume (dark for quiet, bright yellow for loud)
 
 <img src="readme-images/spectrogram.png" width="50%"/>
+
+See also: <a href="https://en.wikipedia.org/wiki/Spectrogram">Spectrogram</a>
 
 <p>&nbsp;</p>
 

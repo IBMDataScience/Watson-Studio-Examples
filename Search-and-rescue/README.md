@@ -248,7 +248,7 @@ push your app to IBM Cloud by issuing the following command:
 
 **Demo video**
 
-<a href=""><img src="readme-images/thumbnail-sar-push-video.png" width="75%"/></a>
+<a href="https://youtu.be/rbYM2xmq8sA"><img src="readme-images/thumbnail-sar-push-video.png" width="75%"/></a>
 
 <p>&nbsp;</p>
 

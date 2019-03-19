@@ -171,7 +171,7 @@ See also:
 
 **Demo video**
 
-<a href=""><img src="readme-images/thumbnail-sar-notebook-video.png" width="75%"/></a>
+<a href="https://youtu.be/BsydyQ6eUL8"><img src="readme-images/thumbnail-sar-notebook-video.png" width="75%"/></a>
 
 <p>&nbsp;</p>
 

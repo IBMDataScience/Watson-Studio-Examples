@@ -12,6 +12,8 @@ from watson_developer_cloud import VisualRecognitionV3
 model_id = '' # <-- PASTE YOUR MODEL ID HERE
 apikey   = '' # <-- PASTE YOUR APIKEY HERE
 
+visual_recognition = VisualRecognitionV3( version='2018-03-19', iam_apikey=apikey )
+
 def applyColourThreshold( frame ):
     lower_green = ( 0, 0, 0 )
     upper_green = ( 90, 255, 255 )
@@ -20,7 +22,7 @@ def applyColourThreshold( frame ):
     return frame_mask
 
 def findContours( frame_mask ):
-    im, contours_arr, heirarchy = cv2.findContours( frame_mask.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE )
+    contours_arr, heirarchy = cv2.findContours( frame_mask.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE )
     return contours_arr
 
 def get_object_bounding_boxes( contours_arr ):
@@ -69,7 +71,6 @@ def getTopClass( results ):
     return sorted_results_classes[0]
 
 def classifyObject( filename ):
-    visual_recognition = VisualRecognitionV3( version='2018-03-19', iam_apikey=apikey )
     with open( filename, 'rb' ) as image_file:
         results = visual_recognition.classify( image_file, threshold='0', classifier_ids=model_id ).get_result()
         print( 'Results:')

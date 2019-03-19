@@ -6,7 +6,7 @@ IBM Watson Studio has powerful machine learning and deep learning features. But 
 
 This sample demonstrates how to build a web app that uses a visual recognition model to classify images from drone footage:
 
-<img src="readme-images/train-sar-model.png" width="75%"/>
+<img src="readme-images/train-sar-model.png" width="60%"/>
 
 This sample includes:
 - Training data and test images (frames from drone video footage)

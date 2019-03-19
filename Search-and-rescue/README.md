@@ -25,7 +25,7 @@ You can complete this sample using the free (Lite) version of these services:
 
 
 ## Demo video
-<a href=""><img src="readme-images/thumbnail-sar-demo-video.png" width="75%"/></a>
+<a href="https://youtu.be/MbfYNncjO8Q"><img src="readme-images/thumbnail-sar-demo-video.png" width="75%"/></a>
 
 <p>&nbsp;</p>
 

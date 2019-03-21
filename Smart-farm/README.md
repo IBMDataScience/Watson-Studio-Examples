@@ -161,7 +161,7 @@ See also:
 
 **Demo video**
 
-<a href=""><img src="readme-images/thumbnail-smart-farm-notebook-video.png" width="75%"/></a>
+<a href="https://youtu.be/4Ci-C0NziMs"><img src="readme-images/thumbnail-smart-farm-notebook-video.png" width="75%"/></a>
 
 <p>&nbsp;</p>
 

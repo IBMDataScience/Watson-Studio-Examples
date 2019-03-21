@@ -12,6 +12,8 @@ import json
 model_id = '' # <-- PASTE YOUR MODEL ID HERE
 apikey   = '' # <-- PASTE YOUR APIKEY HERE
 
+visual_recognition = VisualRecognitionV3( version='2018-03-19', iam_apikey=apikey )
+
 def saveSmallImage( filename ):
     full_im     = Image.open( filename )
     cropped_im  = full_im.crop( [50, 50, 1450, 1450 ] )
@@ -29,7 +31,6 @@ def getTopClass( results ):
     return sorted_results_classes[0]
 
 def classifyImage( image_filename_sm ):
-    visual_recognition = VisualRecognitionV3( version='2018-03-19', iam_apikey=apikey )
     with open( image_filename_sm, 'rb' ) as image_file:
         results = visual_recognition.classify( image_file, threshold='0', classifier_ids=model_id ).get_result()
         print( 'Results:')

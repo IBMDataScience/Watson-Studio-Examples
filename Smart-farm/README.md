@@ -204,7 +204,7 @@ See also:
 
 **Demo video**
 
-<a href=""><img src="readme-images/thumbnail-smart-farm-local-video.png" width="75%"/></a>
+<a href="https://youtu.be/KBgkq5tz2Rg"><img src="readme-images/thumbnail-smart-farm-local-video.png" width="75%"/></a>
 
 <p>&nbsp;</p>
 

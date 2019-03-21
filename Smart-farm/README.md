@@ -25,7 +25,7 @@ You can complete this sample using the free (Lite) version of these services:
 
 
 ## Demo video
-<a href="https://youtu.be/MbfYNncjO8Q"><img src="readme-images/thumbnail-smart-farm-demo-video.png" width="75%"/></a>
+<a href="https://youtu.be/lJlr_iyUhck"><img src="readme-images/thumbnail-smart-farm-demo-video.png" width="75%"/></a>
 
 <p>&nbsp;</p>
 
@@ -161,7 +161,7 @@ See also:
 
 **Demo video**
 
-<a href="https://youtu.be/BsydyQ6eUL8"><img src="readme-images/thumbnail-smart-farm-notebook-video.png" width="75%"/></a>
+<a href=""><img src="readme-images/thumbnail-smart-farm-notebook-video.png" width="75%"/></a>
 
 <p>&nbsp;</p>
 
@@ -204,7 +204,7 @@ See also:
 
 **Demo video**
 
-<a href="https://youtu.be/PFsSxTBcius"><img src="readme-images/thumbnail-smart-farm-local-video.png" width="75%"/></a>
+<a href=""><img src="readme-images/thumbnail-smart-farm-local-video.png" width="75%"/></a>
 
 <p>&nbsp;</p>
 
@@ -238,7 +238,7 @@ push your app to IBM Cloud by issuing the following command:
 
 **Demo video**
 
-<a href="https://youtu.be/rbYM2xmq8sA"><img src="readme-images/thumbnail-smart-farm-push-video.png" width="75%"/></a>
+<a href=""><img src="readme-images/thumbnail-smart-farm-push-video.png" width="75%"/></a>
 
 <p>&nbsp;</p>
 

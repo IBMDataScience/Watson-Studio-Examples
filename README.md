@@ -7,4 +7,4 @@ IBM Watson Studio has powerful machine learning and deep learning features. But 
 This example shows you how to train a visual recognition model using the graphical model builder in Watson Studio and then create a fun, scavenger hunt app that uses that model.
 
 ### Flags national anthem app
-This sample demonstrates how to build a web app that uses a visual recognition model to classify images of flags and then play the national anthem of the country of the flag:
+This sample demonstrates how to build a web app that uses a visual recognition model to classify images of flags and then play the national anthem of the country of the flag.

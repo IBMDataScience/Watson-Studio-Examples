@@ -25,6 +25,8 @@ You can complete this sample using the free (Lite) version of these services:
 
 
 ## Demo video
+<a href="https://youtu.be/OpXfZ4Cx02I">https://youtu.be/OpXfZ4Cx02I</a>
+
 <a href="https://youtu.be/OpXfZ4Cx02I"><img src="readme-images/thumbnail-flags-demo-video.png" width="75%"/></a>
 
 <p>&nbsp;</p>

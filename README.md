@@ -35,3 +35,22 @@
 </td>
 </tr>
 </table>
+
+
+## Wild ideas! series
+<table>
+<tr>
+<th>Name and links</th>
+<th>Description</th>
+</tr>
+<tr>
+<td valign="top"><p><b><a href="https://github.com/IBMDataScience/Watson-Studio-Examples/tree/master/Play-national-anthem-flags">Flags sample</a></b></p>
+<p>This sample demonstrates how to build a web app that uses a visual recognition model to classify images of flags and then play the national anthem of the country of the flag</p>
+<p><a href="https://youtu.be/OpXfZ4Cx02I">Demo video</a></p>
+<img src="https://github.com/IBMDataScience/Watson-Studio-Examples/blob/master/Play-national-anthem-flags/readme-images/thumbnail-flags-demo-video.png" width="600px"/></td>
+<td valign="top"><p><b><a href="https://github.com/IBMDataScience/Watson-Studio-Examples/tree/master/Smart-farm">Smart farm sample</a></b></p>
+<p>This sample demonstrates how to build a web app that uses a visual recognition model to identify individual farm animals drinking water</p>
+<p><a href="https://youtu.be/lJlr_iyUhck">Demo video</a></p>
+<img src="https://github.com/IBMDataScience/Watson-Studio-Examples/blob/master/Smart-farm/readme-images/thumbnail-smart-farm-demo-video.png" width="600px"/></td>
+</tr>
+</table>

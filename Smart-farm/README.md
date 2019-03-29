@@ -25,6 +25,8 @@ You can complete this sample using the free (Lite) version of these services:
 
 
 ## Demo video
+<a href="https://youtu.be/lJlr_iyUhck">https://youtu.be/lJlr_iyUhck</a>
+
 <a href="https://youtu.be/lJlr_iyUhck"><img src="readme-images/thumbnail-smart-farm-demo-video.png" width="75%"/></a>
 
 <p>&nbsp;</p>

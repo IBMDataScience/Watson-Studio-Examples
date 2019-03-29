@@ -1,6 +1,9 @@
 # Watson-Studio-Examples
 
-## Wild ideas! series
+<p>&nbsp;</p>
+
+
+## <i>Wild ideas!</i> series
 IBM Watson Studio has powerful machine learning and deep learning features. But did you know it also has simple tools for quickly training and deploying AI models and for prototyping app code?
 
 These samples all demonstrate how to quickly bring your wild ideas to life in Watson Studio:

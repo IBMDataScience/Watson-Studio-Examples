@@ -15,7 +15,7 @@ These samples all demonstrate how to quickly bring your wild ideas to life in Wa
 <col width="40%">
 <col width="60%">
 <tr>
-<td valign="top"><p><b>Flags sample</b></p>
+<td valign="top"><h3>Flags sample</h3>
 <p>This sample demonstrates how to build a web app that uses a visual recognition model to classify images of flags and then play the national anthem of the country of the flag</p>
 <img src="https://github.com/IBMDataScience/Watson-Studio-Examples/blob/master/Play-national-anthem-flags/readme-images/thumbnail-flags-demo-video.png" width="300px"/>
 <ul>
@@ -23,7 +23,7 @@ These samples all demonstrate how to quickly bring your wild ideas to life in Wa
 <li><a href="https://youtu.be/OpXfZ4Cx02I">Link to demo video</a></li>
 </ul>
 </td>
-<td valign="top"><p><b>Smart farm sample</b></p>
+<td valign="top"><h3>Smart farm sample</h3>
 <p>This sample demonstrates how to build a web app that uses a visual recognition model to identify individual farm animals drinking water</p>
 <img src="https://github.com/IBMDataScience/Watson-Studio-Examples/blob/master/Smart-farm/readme-images/thumbnail-smart-farm-demo-video.png" width="600px"/>
 <ul>
@@ -33,7 +33,7 @@ These samples all demonstrate how to quickly bring your wild ideas to life in Wa
 </td>
 </tr>
 <tr>
-<td valign="top"><p><b>Search and rescue sample</b></p>
+<td valign="top"><h3>Search and rescue sample</h3>
 <p>This sample demonstrates how to build a web app that uses a visual recognition model to classify images from drone footage</p>
 <img src="https://github.com/IBMDataScience/Watson-Studio-Examples/blob/master/Search-and-rescue/readme-images/thumbnail-sar-demo-video.png" width="300px"/>
 <ul>
@@ -41,7 +41,7 @@ These samples all demonstrate how to quickly bring your wild ideas to life in Wa
 <li><a href="https://youtu.be/MbfYNncjO8Q">Link to demo video</a></li>
 </ul>
 </td>
-<td valign="top"><p><b>Cat translator</b></p>
+<td valign="top"><h3>Cat translator</h3>
 <p>This sample demonstrates how to build a web app that uses a visual recognition model to classify spectrograms of cat vocalization</p>
 <img src="https://github.com/IBMDataScience/Watson-Studio-Examples/blob/master/Cat-translator/readme-images/thumbnail-cat-translator-demo-video.png" width="600px"/>
 <ul>
@@ -51,7 +51,7 @@ These samples all demonstrate how to quickly bring your wild ideas to life in Wa
 </td>
 </tr>
 <tr>
-<td colspan="2"><p><b>Scavener hunt BINGO sample</b></p>
+<td colspan="2"><h3>Scavener hunt BINGO sample</h3>
 <p>This sample demonstrates how to build a web app that uses a visual recognition model to classify images for a scavenger hunt</p>
 <table>
 <tr>

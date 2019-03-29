@@ -19,7 +19,7 @@ These samples all demonstrate how to quickly bring your wild ideas to life in Wa
 <col width="60%">
 <tr>
 <td valign="top"><h3>Flags sample</h3>
-<p>A web app that classifies images of flags and then play the national anthem of the country of the flag</p>
+<p>A web app that classifies images of flags and then plays the national anthem of the country of the flag</p>
 <img src="https://github.com/IBMDataScience/Watson-Studio-Examples/blob/master/Play-national-anthem-flags/readme-images/thumbnail-flags-demo-video.png" width="300px"/>
 <ul>
 <li><a href="https://github.com/IBMDataScience/Watson-Studio-Examples/tree/master/Play-national-anthem-flags">Link to sample</a></li>
@@ -55,7 +55,7 @@ These samples all demonstrate how to quickly bring your wild ideas to life in Wa
 </tr>
 <tr>
 <td colspan="2"><h3>Scavener hunt BINGO sample</h3>
-<p>This sample demonstrates how to build a web app that uses a visual recognition model to classify images for a scavenger hunt</p>
+<p>A web app that classifies images for a scavenger hunt BINGO</p>
 <table>
 <tr>
 <td><p>Indoor scavenger hunt<br/><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/raw/master/Scavenger-hunt-BINGO/readme-images/thumbnail-indoor.jpg" width="300px"/></p></td>

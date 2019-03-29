@@ -31,8 +31,8 @@ You can complete this sample using the free (Lite) version of these services:
     <th>San Francisco scavenger hunt BINGO</th>
   </tr>
   <tr>
-        <td><a href="https://youtu.be/1u2qe3pJCyw"><img src="readme-images/thumbnail-indoor.jpg" width="300px"/></a></td>
-    <td><a href="https://youtu.be/6yKptg4t37s"><img src="readme-images/thumbnail-san-fran.jpg" width="300px"/></a></td>
+    <td><a href="https://youtu.be/1u2qe3pJCyw">https://youtu.be/1u2qe3pJCyw</a><br/><a href="https://youtu.be/1u2qe3pJCyw"><img src="readme-images/thumbnail-indoor.jpg" width="300px"/></a></td>
+    <td><a href="https://youtu.be/6yKptg4t37s">https://youtu.be/6yKptg4t37s</a><br/><a href="https://youtu.be/6yKptg4t37s"><img src="readme-images/thumbnail-san-fran.jpg" width="300px"/></a></td>
   </tr>
 </table>
 

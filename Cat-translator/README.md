@@ -26,6 +26,8 @@ You can complete this sample using the free (Lite) version of these services:
 
 
 ## Demo video
+<a href="https://youtu.be/I1TZIWA6pxU">https://youtu.be/I1TZIWA6pxU</a>
+
 <a href="https://youtu.be/I1TZIWA6pxU"><img src="readme-images/thumbnail-cat-translator-demo-video.png" width="75%"/></a>
 
 <p>&nbsp;</p>

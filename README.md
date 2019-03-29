@@ -7,7 +7,7 @@
 <th>Description</th>
 </tr>
 <tr>
-<td valign="top"><p><a href="https://github.com/IBMDataScience/Watson-Studio-Examples/tree/master/Play-national-anthem-flags">Flags sample</a></p>
+<td valign="top"><p><b><a href="https://github.com/IBMDataScience/Watson-Studio-Examples/tree/master/Play-national-anthem-flags">Flags sample</a></b></p>
 <p><a href="https://youtu.be/OpXfZ4Cx02I">Demo video</a></p>
 <img src="https://github.com/IBMDataScience/Watson-Studio-Examples/blob/master/Play-national-anthem-flags/readme-images/thumbnail-flags-demo-video.png" width="600px"/></td>
 <td valign="top">This sample demonstrates how to build a web app that uses a visual recognition model to classify images of flags and then play the national anthem of the country of the flag:

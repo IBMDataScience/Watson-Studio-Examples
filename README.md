@@ -19,7 +19,7 @@ These samples all demonstrate how to quickly bring your wild ideas to life in Wa
 <col width="60%">
 <tr>
 <td valign="top"><h3>Flags sample</h3>
-<p>This sample demonstrates how to build a web app that uses a visual recognition model to classify images of flags and then play the national anthem of the country of the flag</p>
+<p>A web app that classifies images of flags and then play the national anthem of the country of the flag</p>
 <img src="https://github.com/IBMDataScience/Watson-Studio-Examples/blob/master/Play-national-anthem-flags/readme-images/thumbnail-flags-demo-video.png" width="300px"/>
 <ul>
 <li><a href="https://github.com/IBMDataScience/Watson-Studio-Examples/tree/master/Play-national-anthem-flags">Link to sample</a></li>
@@ -27,7 +27,7 @@ These samples all demonstrate how to quickly bring your wild ideas to life in Wa
 </ul>
 </td>
 <td valign="top"><h3>Smart farm sample</h3>
-<p>This sample demonstrates how to build a web app that uses a visual recognition model to identify individual farm animals drinking water</p>
+<p>A web app that identifies individual farm animals drinking water</p>
 <img src="https://github.com/IBMDataScience/Watson-Studio-Examples/blob/master/Smart-farm/readme-images/thumbnail-smart-farm-demo-video.png" width="600px"/>
 <ul>
 <li><a href="https://github.com/IBMDataScience/Watson-Studio-Examples/tree/master/Smart-farm">Link to sample</a></li>
@@ -37,7 +37,7 @@ These samples all demonstrate how to quickly bring your wild ideas to life in Wa
 </tr>
 <tr>
 <td valign="top"><h3>Search and rescue sample</h3>
-<p>This sample demonstrates how to build a web app that uses a visual recognition model to classify images from drone footage</p>
+<p>A web app that recognizes objects of interest in drone footage</p>
 <img src="https://github.com/IBMDataScience/Watson-Studio-Examples/blob/master/Search-and-rescue/readme-images/thumbnail-sar-demo-video.png" width="300px"/>
 <ul>
 <li><a href="https://github.com/IBMDataScience/Watson-Studio-Examples/tree/master/Search-and-rescue">Link to sample</a></li>
@@ -45,7 +45,7 @@ These samples all demonstrate how to quickly bring your wild ideas to life in Wa
 </ul>
 </td>
 <td valign="top"><h3>Cat translator</h3>
-<p>This sample demonstrates how to build a web app that uses a visual recognition model to classify spectrograms of cat vocalization</p>
+<p>A web app that classifies cat vocalization</p>
 <img src="https://github.com/IBMDataScience/Watson-Studio-Examples/blob/master/Cat-translator/readme-images/thumbnail-cat-translator-demo-video.png" width="600px"/>
 <ul>
 <li><a href="https://github.com/IBMDataScience/Watson-Studio-Examples/tree/master/Cat-translator">Link to sample</a></li>
